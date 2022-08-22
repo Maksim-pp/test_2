@@ -1,0 +1,240 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+html{
+    background:  url(https://krot.info/uploads/posts/2022-02/1645033070_2-krot-info-p-krasivie-gradientnie-foni-2.jpg) fixed;
+    
+}
+html,body{
+    height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+li{
+  list-style: none;  
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(218,168,0);
+    font-size: 20px;
+}
+.block-promo h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.block-promo div{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
+.block-promo div img {
+    max-width: 200px;
+    height: auto;
+}
+.block-promo div li{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.block-promo button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(122,58,114);
+    border-radius: 10px;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards-info__item-center{
+    display: flex;
+    flex-direction: column;
+}
+.cards-info__item-center img{
+    width: 200px;
+    height: 300px;
+}
+.cards-info__item-center button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(122,58,114);
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 10px;
+}
+.cards-info__item{
+    margin-top: 50px;
+}
+.cards-info__item img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+/* отзовы*/
+.container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.item{
+    max-width: 350px;
+    height: 600px;
+    text-align: center;
+}
+.item img {
+    width: 300px;
+    height: 350px;
+    padding-bottom: 20px;
+}
+.slider-dots {
+    position: relative;
+    left: 10%;
+}
+.next,
+.prev {
+    cursor: pointer;
+    padding: 30px;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+.active,
+.slider-dots_item:hover {
+    background-color:rgb(218,168,0);
+}
+.block-promo__second-info{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block-promo__second-info img{
+    max-width: 200px;
+    height: auto;
+}
+.block-promo__second-info button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(122,58,114);
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 10px;
+}
+.text-info {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.text-info li{
+    font-size: 18px;
+}
+.block-form{
+    margin-bottom: 50px;
+}
+.block-form h1{
+    margin-top: 50px;
+    
+    text-align: center;
+    font-size: 50px;
+}
+/*таймер*/
+.article {
+    width: 300px;  
+}
+
+article .count {
+    text-align: center;
+    
+}
+article #timer{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 100px;
+    color: rgb(218,168,0);
+    font-size: 80px;
+}
+.form{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.price {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.price img{
+    max-width: 200px;
+    height: auto;
+}
+.price-old{
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.price-new {
+    height: 50px;
+}
+.price-new p{
+    font-size: 30px;
+    color: rgb(218,168,0);
+}
+.price-new p:hover{
+    font-size: 40px;
+    color: red;
+    transition: all ease 1s;
+}
+form li{
+    padding-bottom: 30px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px 0 5px 0;
+}
+
+form button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(122,58,114);
+    border-radius: 10px;
+    color: rgb(218,168,0);
+    font-size: 20px;
+    cursor: pointer;
+}

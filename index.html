@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LevelUp</title>
+</head>
+
+<body>
+
+    <div class="block-promo">
+        <h1>LevelUp</h1>
+        <div>
+            <img src="img/prod.png" alt="">
+            <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+                <li><button><a href="#form">Заказать</a></button></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="cards">
+        <div class="cards-info">
+            <div class="cards-info__item">
+                <img src="img/prod.png" alt="" class="cards-info__img--circle">
+                <p class="cards-info__text">Lorem, ipsum.</p>
+            </div>
+            <div class="cards-info__item">
+                <img src="img/prod.png" alt="" class="cards-info__img--circle">
+                <p class="cards-info__text">Lorem, ipsum.</p>
+            </div>
+            <div class="cards-info__item">
+                <img src="img/prod.png" alt="" class="cards-info__img--circle">
+                <p class="cards-info__text">Lorem, ipsum.</p>
+            </div>
+        </div>
+        <div class="cards-info__item-center">
+            <img src="img/prod.png" alt="">
+            <button><a href="#form">Заказать</a></button>
+        </div>
+        <div class="cards-info">
+            <div class="cards-info__item">
+                <img src="img/prod.png" alt="" class="cards-info__img--circle">
+                <p class="cards-info__text">Lorem, ipsum.</p>
+            </div>
+            <div class="cards-info__item">
+                <img src="img/prod.png" alt="" class="cards-info__img--circle">
+                <p class="cards-info__text">Lorem, ipsum.</p>
+            </div>
+            <div class="cards-info__item">
+                <img src="img/prod.png" alt="" class="cards-info__img--circle">
+                <p class="cards-info__text">Lorem, ipsum.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="slider">
+
+            <div class="item">
+                <img src="https://free-png.ru/wp-content/uploads/2022/01/free-png.ru-567.png" alt="">
+                <h3>Jon Jon</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tempore.</p>
+            </div>
+            <div class="item">
+                <img src="https://catherineasquithgallery.com/uploads/posts/2021-02/1614528008_7-p-muzhchina-na-belom-fone-8.png"
+                    alt="">
+                <h3>Jon Jon</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, exercitationem tenetur fuga distinctio odit ullam!</p>
+            </div>
+            <div class="item">
+                <img src='https://www.pikpng.com/pngl/b/91-919306_groom-high-quality-png-raymonds-suits-png-clipart.png'
+                    alt="">
+                <h3>Jon Jon</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minus quibusdam amet quas!</p>
+            </div>
+            
+        </div>
+
+        
+        
+
+        <div class="slider-dots">
+            <a class="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ffffff" class="bi bi-chevron-left"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+            </svg>
+        </a>
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+            <a class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ffffff" class="bi bi-chevron-right"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+        </a>
+        </div>
+
+    </div>
+
+    <div class="block-promo__second">
+        <div class="block-promo__second-info">
+            <img src="img/doctor.png" alt="">
+            <p>Lorem ipsum dolor sit <br> amet consectetur adipisicing <br> elit. Soluta numquam <br> maiores fugiat,
+                molestiae <br> necessitatibus perferendis? <br> <button><a href="#form">Заказать</a></button></p>
+        </div>
+        <ul class="text-info">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+        </ul>
+    </div>
+
+    <div class="block-form">
+        <h1><a name="form"></a>LevelUp</h1>
+
+        <article class="clock" id="model3">
+            <div class="count">
+                <div id="timer"></div>
+            </div>
+        </article>
+
+        <div class="form">
+            <div class="price">
+                <img src="img/prod.png" alt="">
+                <p class="price-old">1500 руб.</p>
+                <div class="price-new">
+                    <p>1000 руб.</p>
+                </div>
+            </div>
+            <form action="#">
+                <ul>
+                    <li>
+                        <label for="first_name"></label>
+                        <input type="text" name="first_name" placeholder="Кирилл" required>
+                    </li>
+                    <li>
+                        <label for="number"></label>
+                        <input type="number" name="number" placeholder="+79000000000" required>
+                    </li>
+                </ul>
+                <button>Заказать</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/Slider.js"></script>
+    <script src="js/Timer.js"></script>
+</body>
+
+</html>
