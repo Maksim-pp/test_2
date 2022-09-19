@@ -1,9 +1,9 @@
 const sec = 1800,
     countDiv = document.getElementById("timer"),
-    secpass,
+    secPass,
     countDown = setInterval(function () {
         'use strict';
-        secpass();
+        secPass();
     }, 1000);
 
 function secPass() {
