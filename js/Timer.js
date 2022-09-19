@@ -1,4 +1,4 @@
-var sec = 1800,
+const sec = 1800,
     countDiv = document.getElementById("timer"),
     secpass,
     countDown = setInterval(function () {
@@ -6,9 +6,9 @@ var sec = 1800,
         secpass();
     }, 1000);
 
-function secpass() {
+function secPass() {
     'use strict';
-    let min = Math.floor(sec / 60),
+    const min = Math.floor(sec / 60),
         remSec = sec % 60;
     if (remSec < 10) {
         remSec = '0' + remSec;
