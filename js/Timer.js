@@ -1,12 +1,12 @@
 const sec = 1800,
     countDiv = document.getElementById("timer"),
-    secPass,
+    setPassedSeconds,
     countDown = setInterval(function () {
         'use strict';
-        secPass();
+        setPassedSeconds();
     }, 1000);
 
-function secPass() {
+function setPassedSeconds() {
     'use strict';
     const min = Math.floor(sec / 60),
         remSec = sec % 60;
